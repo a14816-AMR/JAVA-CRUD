@@ -29,3 +29,6 @@ volumes:
   db_data:
 
 
+#Senha phpMyAdmin 
+# root
+# root
