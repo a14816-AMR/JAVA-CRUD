@@ -150,7 +150,7 @@ public class App {
                 ResultSet rs = st.executeQuery("SELECT * FROM clientes");
 
                 while (rs.next()) {
-                    int id = rs.getInt("id");
+                    int id = rs.getInt("id"); 
                     String nome = rs.getString("nome");
                     String email = rs.getString("email");
                     String telefone = rs.getString("telefone");
