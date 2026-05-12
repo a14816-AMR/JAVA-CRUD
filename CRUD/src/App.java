@@ -1050,7 +1050,7 @@ public class App {
                 }
 
 
-                String sql = "INSERT INTO clientes(refproduto, produto, preco) VALUES (?,?,?)";
+                String sql = "INSERT INTO produto(refproduto, produto, preco) VALUES (?,?,?)";
                 PreparedStatement ps = con.prepareStatement(sql);
 
                 ps.setString(1, refproduto);
